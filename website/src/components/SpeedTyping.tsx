@@ -3,7 +3,7 @@ import gsap from 'gsap';
 import { useGSAP } from '@gsap/react';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 
-import firstMessageGif from '../../../assets/gifs/first_message.gif';
+import firstMessageGif from '../../../assets/gifs/first_message_v2.gif';
 
 gsap.registerPlugin(ScrollTrigger);
 

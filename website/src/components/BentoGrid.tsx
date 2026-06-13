@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 
-import quickGif from '../../../assets/gifs/Quick.gif';
+import quickGif from '../../../assets/gifs/Quick_v2.gif';
 
 import theme1 from '../../../assets/screenshots/themes/1.png';
 import theme2 from '../../../assets/screenshots/themes/2.png';
