@@ -28,17 +28,11 @@ export default function Hero() {
   return (
     <main ref={container} className="min-h-[100dvh] flex flex-col justify-center items-center text-center px-4 pt-32 pb-24 relative overflow-hidden">
       <h1 ref={titleRef} className="text-[clamp(3rem,6vw,6rem)] leading-[1.1] font-extrabold max-w-6xl mx-auto z-10 text-balance">
-        Communicate
-        <span 
-          className="inline-block w-32 h-14 md:w-40 md:h-20 rounded-full align-middle bg-cover bg-center mx-2 md:mx-4 shadow-[0_10px_30px_rgba(0,0,0,0.1)]"
-          style={{ backgroundImage: 'url("/assets/screenshots/Settings-2.png")' }}
-        />
-        smoothly without <br className="hidden md:block" /> lifting your finger.
+        Turn Simple Swipes <br className="hidden md:block" /> Into Spoken Words.
       </h1>
       
       <p ref={subtitleRef} className="mt-8 text-xl text-gray-500 max-w-2xl mx-auto z-10 font-medium">
-        Gesture-based text-to-speech for non-verbal individuals. 
-        Empowering your voice through intuitive design.
+        A revolutionary text-to-speech app for non-verbal individuals. Slide your finger in four directions to build words rapidly and vocalize them instantly.
       </p>
 
       <div className="mt-12 flex gap-4 z-10">
@@ -55,3 +49,4 @@ export default function Hero() {
     </main>
   );
 }
+
