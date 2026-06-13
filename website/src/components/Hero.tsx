@@ -35,13 +35,25 @@ export default function Hero() {
         A revolutionary text-to-speech app for non-verbal individuals. Slide your finger in four directions to build words rapidly and vocalize them instantly.
       </p>
 
-      <div className="mt-12 flex gap-4 z-10">
+      <div className="mt-12 flex flex-col sm:flex-row gap-4 z-10 items-center justify-center">
+        <a 
+          href="#"
+          className="bg-[#FF424D] text-white px-8 py-4 rounded-full font-bold text-lg hover:scale-105 transition-transform duration-300 shadow-lg shadow-red-500/20"
+        >
+          Patreon
+        </a>
         <button 
           onClick={triggerDownloadModal}
-          className="bg-black text-white px-8 py-4 rounded-full font-bold text-lg hover:scale-105 transition-transform duration-300"
+          className="bg-black text-white px-10 py-4 rounded-full font-extrabold text-xl hover:scale-105 transition-transform duration-300 shadow-xl shadow-black/20"
         >
           Get the App
         </button>
+        <a 
+          href="#"
+          className="bg-[#1A1A1A] text-white px-8 py-4 rounded-full font-bold text-lg hover:scale-105 transition-transform duration-300 shadow-lg shadow-black/10"
+        >
+          Open Collective
+        </a>
       </div>
       
       {/* Background Element */}

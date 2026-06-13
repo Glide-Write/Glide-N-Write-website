@@ -10,7 +10,7 @@ export default function Navbar() {
       </div>
       <div className="flex items-center gap-6">
         <a 
-          href="https://github.com" 
+          href="https://github.com/Glide-Write/Glide-N-Write" 
           target="_blank"
           rel="noopener noreferrer"
           className="flex items-center gap-2 text-gray-600 hover:text-black font-bold text-sm transition-colors duration-300"
