@@ -70,7 +70,7 @@ export default function SupportUs() {
           
           <div className="flex flex-col sm:flex-row gap-4 mt-4">
             <a 
-              href="#" 
+              href="https://www.patreon.com/GlideWrite" 
               className="bg-[#FF424D] text-white px-8 py-4 rounded-full font-bold text-lg hover:scale-105 transition-transform duration-300 flex items-center justify-center shadow-lg shadow-red-500/20"
             >
               Support on Patreon
