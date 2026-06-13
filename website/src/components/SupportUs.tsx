@@ -76,7 +76,7 @@ export default function SupportUs() {
               Support on Patreon
             </a>
             <a 
-              href="#" 
+              href="https://opencollective.com/glide-and-write" 
               className="bg-[#1A1A1A] text-white px-8 py-4 rounded-full font-bold text-lg hover:scale-105 transition-transform duration-300 flex items-center justify-center shadow-lg shadow-black/10"
             >
               Open Collective
