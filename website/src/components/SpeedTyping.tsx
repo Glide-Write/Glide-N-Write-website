@@ -3,7 +3,7 @@ import gsap from 'gsap';
 import { useGSAP } from '@gsap/react';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 
-import firstMessageGif from '../../../assets/gifs/first_message_v2.gif';
+import secondMessageGif from '../../../assets/gifs/second_message_v2.gif';
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -62,7 +62,7 @@ export default function SpeedTyping() {
             className="relative rounded-[40px] overflow-hidden shadow-2xl shadow-black/5 border-[8px] border-white max-w-sm w-full bg-white"
           >
             <img 
-              src={firstMessageGif} 
+              src={secondMessageGif} 
               alt="Typing speed demonstration" 
               className="w-full h-auto object-cover"
             />

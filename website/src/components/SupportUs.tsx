@@ -3,7 +3,7 @@ import gsap from 'gsap';
 import { useGSAP } from '@gsap/react';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 
-import secondMessageGif from '../../../assets/gifs/second_message_v2.gif';
+import firstMessageGif from '../../../assets/gifs/first_message_v2.gif';
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -49,7 +49,7 @@ export default function SupportUs() {
             className="relative rounded-[40px] overflow-hidden shadow-[0_20px_50px_rgba(0,0,0,0.1)] border-[8px] border-white max-w-sm w-full bg-white"
           >
             <img 
-              src={secondMessageGif} 
+              src={firstMessageGif} 
               alt="Glide and Write App Demonstration" 
               className="w-full h-auto object-cover"
             />
