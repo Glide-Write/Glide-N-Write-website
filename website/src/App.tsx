@@ -6,6 +6,7 @@ import BentoGrid from './components/BentoGrid';
 import SupportUs from './components/SupportUs';
 import Footer from './components/Footer';
 import DownloadModal from './components/DownloadModal';
+import { Analytics } from '@vercel/analytics/react';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <SupportUs />
       <Footer />
       <DownloadModal />
+      <Analytics />
     </div>
   );
 }
