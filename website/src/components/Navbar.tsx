@@ -1,14 +1,21 @@
+import { Link } from 'react-router-dom';
 import logoImg from '../../../assets/Logo/GW.png';
 import { triggerDownloadModal } from './DownloadModal';
 
 export default function Navbar() {
   return (
     <nav className="border-b border-black/5 w-full py-6 px-8 flex justify-between items-center bg-white/80 backdrop-blur-md fixed top-0 z-50">
-      <div className="font-extrabold text-xl tracking-tight flex items-center gap-3">
+      <Link to="/" className="font-extrabold text-xl tracking-tight flex items-center gap-3 hover:opacity-80 transition-opacity duration-300">
         <img src={logoImg} alt="Glide & Write" className="w-8 h-8 object-contain" />
         Glide & Write
-      </div>
+      </Link>
       <div className="flex items-center gap-6">
+        <Link 
+          to="/support" 
+          className="text-gray-600 hover:text-black font-bold text-sm transition-colors duration-300"
+        >
+          Support Us
+        </Link>
         <a 
           href="https://github.com/Glide-Write/Glide-N-Write" 
           target="_blank"
